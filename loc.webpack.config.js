@@ -11,13 +11,19 @@ module.exports = {
       path.join(__dirname),
       'node_modules'
     ],
-    extensions: [".ts", ".tsx", ".js", ".jsx", ".json"]
+    alias: {
+      'form-maker': path.join(__dirname, '../form-maker/src')
+    },
+    extensions: [".ts", ".tsx", ".js", ".jsx"]
   },
   module: {
     rules: [
       {
-        loader: "ts-loader",
+        loader: "ts-loader?happyPackMode=true",
         test: /\.tsx?$/,
+      }, {
+        loader: "source-map-loader",
+        test: /\.js$/,
       },
     ]
   },
@@ -26,5 +32,6 @@ module.exports = {
       template: 'src/index.html'
     }),
   ],
+  devtool: 'inline-source-map'
 };
 
