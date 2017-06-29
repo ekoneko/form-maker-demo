@@ -9,5 +9,5 @@ export interface IWorkItemProps {
 export interface IEditParamsProps extends Component{
   params: protoItemParams;
   onChange: protoItemOnChange;
-  form?: WrappedFormUtils|null;
+  form: WrappedFormUtils;
 }

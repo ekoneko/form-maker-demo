@@ -6,7 +6,10 @@ import EditParam from './EditParam'
 
 export const item: IProtoListItem = {
   type: 'input',
-  params: {},
+  params: {
+    title: 'Input',
+    placeholder: '',
+  },
   renderProto: () => {
     return <ProtoItem />
   },

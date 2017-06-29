@@ -1,3 +1,5 @@
+import {IEditParamsProps} from './interface'
+
 export interface params {
   title?: string;
   isRequired?: boolean;
@@ -13,5 +15,14 @@ export function generateFormItemProps(params: params) {
   return {
     label: title,
     required: isRequired,
+  }
+}
+
+export function generateEditParamProps(name:string, props: IEditParamsProps) {
+  const {form, onChange} = props
+  return {
+    name,
+    form,
+    onChange,
   }
 }

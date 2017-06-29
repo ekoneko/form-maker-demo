@@ -1,7 +1,7 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import {FormMaker, ProtoBench, WorkBench} from 'form-maker'
-import {item as InputField} from './FormFIelds/Input'
+import {item as InputField} from './components/FormFIelds/Input'
 
 const formFields = [InputField]
 

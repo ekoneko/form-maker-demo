@@ -31,11 +31,13 @@
   },
   "dependencies": {
     "antd": "^2.11.2",
+    "css-loader": "^0.28.4",
     "form-maker": "../form-maker",
     "lodash": "^4.17.4",
     "react": "^15.6.1",
     "react-dnd": "^2.4.0",
     "react-dnd-html5-backend": "^2.4.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "style-loader": "^0.18.2"
   }
 }

@@ -4,10 +4,14 @@
     "sourceMap": true,
     "noImplicitAny": false,
     "module": "commonjs",
-    "target": "es5",
-    "jsx": "react",
-    "declaration": true,
+    "target": "es6",
+    "jsx": "preserve",
     "allowSyntheticDefaultImports": true,
     "allowJs": true
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "lib",
+    "dist"
+  ]
 }
