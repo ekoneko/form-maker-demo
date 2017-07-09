@@ -6,7 +6,7 @@ config.resolve.alias = {
 };
 config.devtool = 'inline-source-map';
 config.module.rules[0] = {
-  loader: 'ts-loader?happyPackMode=true',
+  loader: 'babel-loader!ts-loader?happyPackMode=true',
   test: /\.tsx?$/
 };
 

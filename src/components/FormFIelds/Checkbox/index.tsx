@@ -5,11 +5,10 @@ import WorkItem from './WorkItem'
 import EditParam from './EditParam'
 
 export const item: IProtoListItem = {
-  type: 'input',
+  type: 'checkbox',
   params: {
-    title: 'Input',
-    placeholder: '',
-    multiple: false,
+    title: 'Checkbox',
+    options: 'option1,option2,option3',
   },
   renderProto: () => {
     return <ProtoItem />

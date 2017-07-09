@@ -5,11 +5,9 @@ import WorkItem from './WorkItem'
 import EditParam from './EditParam'
 
 export const item: IProtoListItem = {
-  type: 'input',
+  type: 'datescope',
   params: {
-    title: 'Input',
-    placeholder: '',
-    multiple: false,
+    title: 'date scope',
   },
   renderProto: () => {
     return <ProtoItem />

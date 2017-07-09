@@ -5,11 +5,9 @@ import WorkItem from './WorkItem'
 import EditParam from './EditParam'
 
 export const item: IProtoListItem = {
-  type: 'input',
+  type: 'datepicker',
   params: {
-    title: 'Input',
-    placeholder: '',
-    multiple: false,
+    title: 'date picker',
   },
   renderProto: () => {
     return <ProtoItem />
