@@ -32,7 +32,7 @@
   "dependencies": {
     "antd": "^2.11.2",
     "css-loader": "^0.28.4",
-    "form-maker": "../form-maker",
+    "form-maker": "latest",
     "lodash": "^4.17.4",
     "react": "^15.6.1",
     "react-dnd": "^2.4.0",
