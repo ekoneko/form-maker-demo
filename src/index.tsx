@@ -1,7 +1,7 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import 'antd/dist/antd.css'
-import {FormMaker, ProtoBench, WorkBench} from 'form-maker'
+import {FormMaker, ProtoBench, WorkBench, EditBench} from 'form-maker'
 import {item as InputField} from './components/FormFIelds/Input'
 import {item as CheckboxField} from './components/FormFIelds/Checkbox'
 import {item as RadioField} from './components/FormFIelds/Radio'
@@ -37,16 +37,12 @@ const editBenchStyle = {
 }
 
 class App extends React.PureComponent<any, any> {
-  state = {
-    editForm: null
-  }
-  handleEditClick = (element) => {
-    this.setState({editForm: element})
+  handleChange = (results) => {
+    // output struct
+    console.log(results)
   }
 
   render() {
-    const {editForm} = this.state
-
     return (
       <FormMaker>
         <ProtoBench
@@ -54,10 +50,10 @@ class App extends React.PureComponent<any, any> {
           style={protoBenchStyle}
         />
         <WorkBench
-          onEditClick={this.handleEditClick}
+          onChange={this.handleChange}
           style={workBenchStyle}
         />
-        <div style={editBenchStyle}>{editForm}</div>
+        <EditBench style={editBenchStyle} />
       </FormMaker>
     )
   }
