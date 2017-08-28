@@ -1,6 +1,5 @@
 import * as React from 'react'
 import { Form, Switch } from 'antd'
-import { trim } from 'lodash'
 import { IEditItemProps } from './interface'
 
 const NAME = 'Multiple'
