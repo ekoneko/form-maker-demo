@@ -1,5 +1,5 @@
 import {Component} from 'react'
-import {protoItemOnChange, protoItemParams} from 'form-maker'
+import {protoItemOnChange, protoItemParams} from '@ekoneko/form-maker'
 import { WrappedFormUtils } from 'antd/lib/form/Form'
 
 export interface IWorkItemProps {

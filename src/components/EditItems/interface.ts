@@ -1,4 +1,4 @@
-import {protoItemOnChange} from 'form-maker'
+import {protoItemOnChange} from '@ekoneko/form-maker'
 import { WrappedFormUtils } from 'antd/lib/form/Form'
 
 export interface IEditItemProps {

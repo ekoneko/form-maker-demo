@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {IProtoListItem} from 'form-maker'
+import {IProtoListItem} from '@ekoneko/form-maker'
 import ProtoItem from './ProtoItem'
 import WorkItem from './WorkItem'
 import EditParam from './EditParam'

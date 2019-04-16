@@ -1,7 +1,7 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import 'antd/dist/antd.css'
-import {FormMaker, ProtoBench, WorkBench, EditBench} from 'form-maker'
+import {FormMaker, ProtoBench, WorkBench, EditBench} from '@ekoneko/form-maker'
 import {item as InputField} from './components/FormFIelds/Input'
 import {item as CheckboxField} from './components/FormFIelds/Checkbox'
 import {item as RadioField} from './components/FormFIelds/Radio'
