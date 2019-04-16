@@ -5,7 +5,7 @@
     "sourceMap": true,
     "noImplicitAny": false,
     "module": "commonjs",
-    "target": "es6",
+    "target": "esnext",
     "jsx": "preserve",
     "allowSyntheticDefaultImports": true,
     "allowJs": true

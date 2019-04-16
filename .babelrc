@@ -1,4 +1,6 @@
 {
-  "presets": ["es2015", "es2016", "react"],
-  "plugins": [["import", {"libraryName": "antd", "style": "css"}]]
+  "presets": [["@babel/env", {
+    "modules": false
+  }], "@babel/react"],
+  "plugins": ["@babel/plugin-syntax-dynamic-import"]
 }
