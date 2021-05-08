@@ -31,7 +31,7 @@
   "dependencies": {
     "@ekoneko/form-maker": "^1.0.0",
     "antd": "^2.13.14",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "react": "^15.6.1",
     "react-dnd": "^2.4.0",
     "react-dnd-html5-backend": "^2.4.1",
